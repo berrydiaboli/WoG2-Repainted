@@ -1,4 +1,4 @@
-# This is the World of Goo 2 Repainted
+# This is the World of Goo 2 Repainted's Github!
 this features all of this mod's assets and other features!
 
 If you are interested in helping or wanting to talk about it, you can join this server
