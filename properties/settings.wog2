@@ -1,0 +1,3992 @@
+{
+	"sound":	{
+		"bus":	[{
+				"volume":	1
+			}, {
+				"volume":	0.899999976158142
+			}, {
+				"volume":	1
+			}, {
+				"volume":	1
+			}, {
+				"volume":	0.5
+			}, {
+				"volume":	2
+			}]
+	},
+	"liquid":	{
+		"liquidTypes":	[{
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	true,
+					"splashInSmallSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHSMALL"
+					},
+					"splashInLargeSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHBIG"
+					},
+					"splashOutSmallSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHSMALL"
+					},
+					"splashOutLargeSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHBIG"
+					},
+					"jellyCollisionSound":	{
+						"soundId":	""
+					},
+					"modes":	[{
+							"name":	"Idle",
+							"minContactCount":	1,
+							"maxContactCount":	10000,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	-1,
+							"maxVelocity":	0.5,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	20,
+							"factorScale":	0.05000000074505806,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.20000000298023224,
+								"y":	0.5
+							},
+							"fadeInSpeed":	0.05000000074505806,
+							"fadeOutSpeed":	0.05000000074505806,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_LIQUID_ACTIVITY_LOOP"
+							}
+						}, {
+							"name":	"Moving",
+							"minContactCount":	0,
+							"maxContactCount":	6,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.5,
+							"maxVelocity":	20,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	60,
+							"factorScale":	1,
+							"factorPower":	0.5,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.75,
+								"y":	1.5
+							},
+							"fadeInSpeed":	0.05000000074505806,
+							"fadeOutSpeed":	0.05000000074505806,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_LIQUID_ACTIVITY_LOOP"
+							}
+						}, {
+							"name":	"Pipe",
+							"minContactCount":	0,
+							"maxContactCount":	100,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.10000000149011612,
+							"maxVelocity":	15,
+							"minTime":	0,
+							"maxTime":	0.300000011920929,
+							"minCount":	2,
+							"maxCount":	10,
+							"factorScale":	0.800000011920929,
+							"factorPower":	1,
+							"falloffDistance":	100,
+							"falloffPower":	20,
+							"falloffMinFactor":	0.15000000596046448,
+							"relativeSpeed":	{
+								"x":	0.5,
+								"y":	0.800000011920929
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.20000000298023224,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	""
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	0,
+					"startColor":	{
+						"color":	4283837184
+					},
+					"endColor":	{
+						"color":	4283837184
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	4
+					},
+					"alpha":	1,
+					"overlay":	0.20000000298023224,
+					"bloomFactor":	0,
+					"lightingFactor":	1,
+					"strength":	5,
+					"dynamicLightingFactor":	0,
+					"particleFlags":	4195512,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	true,
+					"destroyedByFire":	false,
+					"burn":	false,
+					"fireResistant":	false,
+					"extinguish":	false,
+					"jump":	true,
+					"stain":	true,
+					"minStainContactsCount":	0,
+					"discover":	true,
+					"affectsAutoBounds":	true,
+					"convertBurnToLiquidType":	8,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.899999976158142,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.5,
+					"waterPlaneWaveCurveScale":	0.00499999988824129,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneEndColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	"IMAGE_GLOBAL_WATERFOAM"
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4285624689
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294967295
+					},
+					"jellyImage":	{
+						"imageId":	""
+					},
+					"isJelly":	false,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	true,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	1.2000000476837158,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4284414799
+							},
+							"jellyOutlineLimit":	0.012500000186264515,
+							"jellySpecularColor":	{
+								"color":	4287036793
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4278212608
+							},
+							"liquidColorEnd":	{
+								"color":	4278226944
+							},
+							"liquidOutline":	{
+								"color":	4279091456
+							},
+							"liquidInsideStartColor":	{
+								"color":	4279091456
+							},
+							"liquidInsideEndColor":	{
+								"color":	4285923176
+							},
+							"liquidOutlineLimit":	0.05000000074505806,
+							"waterPlaneStartColor":	{
+								"color":	4278488576
+							},
+							"waterPlaneEndColor":	{
+								"color":	4278944768
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4278209536
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4278204928
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	"38a4086e-cbf0-45c3-9a95-bd60143d7b22"
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	true,
+					"splashInSmallSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHSMALL"
+					},
+					"splashInLargeSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHBIG"
+					},
+					"splashOutSmallSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHSMALL"
+					},
+					"splashOutLargeSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHBIG"
+					},
+					"jellyCollisionSound":	{
+						"soundId":	""
+					},
+					"modes":	[{
+							"name":	"Idle",
+							"minContactCount":	1,
+							"maxContactCount":	10000,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	-1,
+							"maxVelocity":	0.5,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	20,
+							"factorScale":	0.0024999999441206455,
+							"factorPower":	1.5,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.300000011920929,
+								"y":	0.600000023841858
+							},
+							"fadeInSpeed":	0.05000000074505806,
+							"fadeOutSpeed":	0.05000000074505806,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_WATER_WATERLOOP_LARGE"
+							}
+						}, {
+							"name":	"Moving",
+							"minContactCount":	0,
+							"maxContactCount":	6,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.5,
+							"maxVelocity":	20,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	60,
+							"factorScale":	1,
+							"factorPower":	1.5,
+							"falloffDistance":	10,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.75,
+								"y":	1.2000000476837158
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.10000000149011612,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_WATER_WATERLOOP_LARGEST"
+							}
+						}, {
+							"name":	"Pipe",
+							"minContactCount":	0,
+							"maxContactCount":	100,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.10000000149011612,
+							"maxVelocity":	15,
+							"minTime":	0,
+							"maxTime":	0.300000011920929,
+							"minCount":	2,
+							"maxCount":	10,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	100,
+							"falloffPower":	20,
+							"falloffMinFactor":	0.15000000596046448,
+							"relativeSpeed":	{
+								"x":	0.850000023841858,
+								"y":	1
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.20000000298023224,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_LIQUIDLAUNCHER_LOOP"
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	1,
+					"startColor":	{
+						"color":	4280700031
+					},
+					"endColor":	{
+						"color":	4281750653
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	3,
+						"y":	10
+					},
+					"alpha":	0.899999976158142,
+					"overlay":	0,
+					"bloomFactor":	0,
+					"lightingFactor":	0,
+					"strength":	2.5,
+					"dynamicLightingFactor":	1,
+					"particleFlags":	4194488,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.300000011920929,
+								"y":	0.699999988079071
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.21176470816135406,
+								"y":	0.41960784792900085,
+								"z":	0.70588237047195435,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.27058824896812439,
+								"y":	0.5372549295425415,
+								"z":	0.901960790157318,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.300000011920929,
+								"y":	0.699999988079071
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.21176470816135406,
+								"y":	0.41960784792900085,
+								"z":	0.70588237047195435,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.27058824896812439,
+								"y":	0.5372549295425415,
+								"z":	0.901960790157318,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	false,
+					"destroyedByFire":	true,
+					"burn":	false,
+					"fireResistant":	false,
+					"extinguish":	true,
+					"jump":	false,
+					"stain":	false,
+					"minStainContactsCount":	0,
+					"discover":	true,
+					"affectsAutoBounds":	true,
+					"convertBurnToLiquidType":	2,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.949999988079071,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.5,
+					"waterPlaneWaveCurveScale":	0.00499999988824129,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4280700031
+					},
+					"waterPlaneEndColor":	{
+						"color":	4281750653
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	"IMAGE_GLOBAL_WATERFOAM"
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4286092222
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4281357193
+					},
+					"jellyImage":	{
+						"imageId":	""
+					},
+					"isJelly":	false,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	"cd317839-8787-4d88-8fc0-92d0013937da"
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	-0.5,
+					"convertToMeshSoundMaxArea":	2,
+					"convertToMeshSound":	{
+						"soundId":	"SOUND_GLOBAL_GOOGEYSER"
+					},
+					"splashSoundsEnabled":	false,
+					"splashInSmallSound":	{
+						"soundId":	""
+					},
+					"splashInLargeSound":	{
+						"soundId":	""
+					},
+					"splashOutSmallSound":	{
+						"soundId":	""
+					},
+					"splashOutLargeSound":	{
+						"soundId":	""
+					},
+					"jellyCollisionSound":	{
+						"soundId":	""
+					},
+					"modes":	[]
+				},
+				"render":	{
+					"renderType":	2,
+					"startColor":	{
+						"color":	4280684046
+					},
+					"endColor":	{
+						"color":	4279699721
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	4
+					},
+					"alpha":	1,
+					"overlay":	0,
+					"bloomFactor":	0,
+					"lightingFactor":	1,
+					"strength":	10,
+					"dynamicLightingFactor":	0,
+					"particleFlags":	160,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	false,
+					"destroyedByFire":	false,
+					"burn":	false,
+					"fireResistant":	true,
+					"extinguish":	true,
+					"jump":	false,
+					"stain":	false,
+					"minStainContactsCount":	0,
+					"discover":	false,
+					"affectsAutoBounds":	false,
+					"convertBurnToLiquidType":	2,
+					"convertBurnProbability":	9.99999974737875e-06,
+					"waterPlaneColorBlend":	0.949999988079071,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.5,
+					"waterPlaneWaveCurveScale":	0.00499999988824129,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4283564032
+					},
+					"waterPlaneEndColor":	{
+						"color":	4281729024
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	""
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4294967295
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294967295
+					},
+					"jellyImage":	{
+						"imageId":	""
+					},
+					"isJelly":	false,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	""
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	true,
+					"splashInSmallSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHSMALL"
+					},
+					"splashInLargeSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHBIG"
+					},
+					"splashOutSmallSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHSMALL"
+					},
+					"splashOutLargeSound":	{
+						"soundId":	"SOUND_GLOBAL_SPLASHBIG"
+					},
+					"jellyCollisionSound":	{
+						"soundId":	""
+					},
+					"modes":	[{
+							"name":	"Idle",
+							"minContactCount":	1,
+							"maxContactCount":	10000,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	-1,
+							"maxVelocity":	0.5,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	20,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	1,
+								"y":	1
+							},
+							"fadeInSpeed":	0.05000000074505806,
+							"fadeOutSpeed":	0.02500000037252903,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_LOOP_BUBBLES"
+							}
+						}, {
+							"name":	"Moving",
+							"minContactCount":	1,
+							"maxContactCount":	100,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.5,
+							"maxVelocity":	20,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	50,
+							"factorScale":	2,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	1,
+								"y":	2
+							},
+							"fadeInSpeed":	0.05000000074505806,
+							"fadeOutSpeed":	0.02500000037252903,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_LOOP_FIREWATER"
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	3,
+					"startColor":	{
+						"color":	4280684046
+					},
+					"endColor":	{
+						"color":	4279699721
+					},
+					"gooSpawnProbability":	0.300000011920929,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	2
+					},
+					"alpha":	1,
+					"overlay":	0,
+					"bloomFactor":	1,
+					"lightingFactor":	0,
+					"strength":	5,
+					"dynamicLightingFactor":	0.5,
+					"particleFlags":	184,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.5,
+								"y":	0.079999998211860657,
+								"z":	0,
+								"w":	0.5
+							},
+							"randomColorEnd":	{
+								"x":	0.449999988079071,
+								"y":	0.300000011920929,
+								"z":	0,
+								"w":	0.5
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.5,
+								"y":	0.079999998211860657,
+								"z":	0,
+								"w":	0.5
+							},
+							"randomColorEnd":	{
+								"x":	0.449999988079071,
+								"y":	0.300000011920929,
+								"z":	0,
+								"w":	0.5
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	false,
+					"destroyedByFire":	false,
+					"burn":	true,
+					"fireResistant":	false,
+					"extinguish":	false,
+					"jump":	false,
+					"stain":	true,
+					"minStainContactsCount":	4,
+					"discover":	true,
+					"affectsAutoBounds":	false,
+					"convertBurnToLiquidType":	8,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.899999976158142,
+					"waterPlaneWaveFactorStart":	0.05000000074505806,
+					"waterPlaneWaveFactorEnd":	0.05000000074505806,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	2,
+					"waterPlaneWaveCurveScale":	0.00999999977648258,
+					"waterPlaneWaveRippleScale":	0.0070000002160668373,
+					"waterPlaneWaveRippleCosScale":	2,
+					"waterPlaneStartColor":	{
+						"color":	4294323456
+					},
+					"waterPlaneEndColor":	{
+						"color":	4294323456
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	4294944768
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	4294323456
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_LAVAWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	"IMAGE_GLOBAL_WATERFOAM"
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4294138661
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294934054
+					},
+					"jellyImage":	{
+						"imageId":	""
+					},
+					"isJelly":	false,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	""
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	false,
+					"splashInSmallSound":	{
+						"soundId":	""
+					},
+					"splashInLargeSound":	{
+						"soundId":	""
+					},
+					"splashOutSmallSound":	{
+						"soundId":	""
+					},
+					"splashOutLargeSound":	{
+						"soundId":	""
+					},
+					"jellyCollisionSound":	{
+						"soundId":	"SOUND_GLOBAL_JELLY_COLLIDE"
+					},
+					"modes":	[{
+							"name":	"Idle",
+							"minContactCount":	3,
+							"maxContactCount":	100,
+							"minBodyContactCount":	1,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.5,
+							"maxVelocity":	2,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	10,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.899999976158142,
+								"y":	1.5
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.05000000074505806,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_JELLY_ACTIVITY_LOOP"
+							}
+						}, {
+							"name":	"Destroy",
+							"minContactCount":	0,
+							"maxContactCount":	0,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	0,
+							"minVelocity":	0,
+							"maxVelocity":	0,
+							"minTime":	0,
+							"maxTime":	0,
+							"minCount":	1,
+							"maxCount":	2,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.899999976158142,
+								"y":	1.2999999523162842
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.05000000074505806,
+							"destroy":	true,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_JELLY_RIPPING_LOOP"
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	0,
+					"startColor":	{
+						"color":	4279834905
+					},
+					"endColor":	{
+						"color":	4279834905
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	4
+					},
+					"alpha":	1,
+					"overlay":	0,
+					"bloomFactor":	0,
+					"lightingFactor":	1,
+					"strength":	4,
+					"dynamicLightingFactor":	0,
+					"particleFlags":	3256,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	true,
+					"destroyedByFire":	false,
+					"burn":	false,
+					"fireResistant":	false,
+					"extinguish":	false,
+					"jump":	false,
+					"stain":	true,
+					"minStainContactsCount":	0,
+					"discover":	true,
+					"affectsAutoBounds":	true,
+					"convertBurnToLiquidType":	0,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.949999988079071,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.20000000298023224,
+					"waterPlaneWaveCurveScale":	0.00999999977648258,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneEndColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	""
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4294967295
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294967295
+					},
+					"jellyImage":	{
+						"imageId":	"IMAGE_GLOBAL_JELLY_BLOCKHARD"
+					},
+					"isJelly":	true,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	true,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	1,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4279014144
+							},
+							"jellyOutlineLimit":	0.02500000037252903,
+							"jellySpecularColor":	{
+								"color":	4278951936
+							},
+							"jellySpecularLimit":	0.20000000298023224,
+							"jellyShaderDefineIndex":	1,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	"38a4086e-cbf0-45c3-9a95-bd60143d7b22"
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	false,
+					"splashInSmallSound":	{
+						"soundId":	""
+					},
+					"splashInLargeSound":	{
+						"soundId":	""
+					},
+					"splashOutSmallSound":	{
+						"soundId":	""
+					},
+					"splashOutLargeSound":	{
+						"soundId":	""
+					},
+					"jellyCollisionSound":	{
+						"soundId":	"SOUND_GLOBAL_JELLY_COLLIDE"
+					},
+					"modes":	[{
+							"name":	"Idle",
+							"minContactCount":	3,
+							"maxContactCount":	100,
+							"minBodyContactCount":	1,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.300000011920929,
+							"maxVelocity":	1,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	10,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	1,
+								"y":	2
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.02500000037252903,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_JELLY_ACTIVITY_LOOP"
+							}
+						}, {
+							"name":	"Destroy",
+							"minContactCount":	0,
+							"maxContactCount":	0,
+							"minBodyContactCount":	0,
+							"maxBodyContactCount":	0,
+							"minVelocity":	0,
+							"maxVelocity":	0,
+							"minTime":	0,
+							"maxTime":	0,
+							"minCount":	1,
+							"maxCount":	2,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	0.899999976158142,
+								"y":	1.2999999523162842
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.05000000074505806,
+							"destroy":	true,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_JELLY_RIPPING_LOOP"
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	0,
+					"startColor":	{
+						"color":	4279834905
+					},
+					"endColor":	{
+						"color":	4279834905
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	4
+					},
+					"alpha":	1,
+					"overlay":	0,
+					"bloomFactor":	0,
+					"lightingFactor":	1,
+					"strength":	0.33000001311302185,
+					"dynamicLightingFactor":	0,
+					"particleFlags":	3256,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	true,
+					"destroyedByFire":	false,
+					"burn":	false,
+					"fireResistant":	false,
+					"extinguish":	false,
+					"jump":	false,
+					"stain":	true,
+					"minStainContactsCount":	0,
+					"discover":	true,
+					"affectsAutoBounds":	true,
+					"convertBurnToLiquidType":	0,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.949999988079071,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.20000000298023224,
+					"waterPlaneWaveCurveScale":	0.00999999977648258,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneEndColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	""
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4294967295
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294967295
+					},
+					"jellyImage":	{
+						"imageId":	"IMAGE_GLOBAL_JELLY_BLOCKSOFT"
+					},
+					"isJelly":	true,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	"38a4086e-cbf0-45c3-9a95-bd60143d7b22"
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	false,
+					"splashInSmallSound":	{
+						"soundId":	""
+					},
+					"splashInLargeSound":	{
+						"soundId":	""
+					},
+					"splashOutSmallSound":	{
+						"soundId":	""
+					},
+					"splashOutLargeSound":	{
+						"soundId":	""
+					},
+					"jellyCollisionSound":	{
+						"soundId":	""
+					},
+					"modes":	[{
+							"name":	"",
+							"minContactCount":	6,
+							"maxContactCount":	100,
+							"minBodyContactCount":	1,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.300000011920929,
+							"maxVelocity":	1,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	10,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	1,
+								"y":	2
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.10000000149011612,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_LOOP_JELLYBLOCK.01"
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	0,
+					"startColor":	{
+						"color":	4279834905
+					},
+					"endColor":	{
+						"color":	4279834905
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	4
+					},
+					"alpha":	1,
+					"overlay":	0,
+					"bloomFactor":	0,
+					"lightingFactor":	1,
+					"strength":	0.33000001311302185,
+					"dynamicLightingFactor":	0,
+					"particleFlags":	1208,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	true,
+					"destroyedByFire":	false,
+					"burn":	false,
+					"fireResistant":	false,
+					"extinguish":	false,
+					"jump":	false,
+					"stain":	true,
+					"minStainContactsCount":	0,
+					"discover":	false,
+					"affectsAutoBounds":	true,
+					"convertBurnToLiquidType":	0,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.949999988079071,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.20000000298023224,
+					"waterPlaneWaveCurveScale":	0.00999999977648258,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneEndColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	""
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4294967295
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294967295
+					},
+					"jellyImage":	{
+						"imageId":	"IMAGE_GLOBAL_JELLY"
+					},
+					"isJelly":	true,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	""
+					}
+				}
+			}, {
+				"sound":	{
+					"convertToMeshSoundProbability":	1,
+					"convertToMeshSoundMinArea":	0,
+					"convertToMeshSoundMaxArea":	0.5,
+					"convertToMeshSound":	{
+						"soundId":	""
+					},
+					"splashSoundsEnabled":	false,
+					"splashInSmallSound":	{
+						"soundId":	""
+					},
+					"splashInLargeSound":	{
+						"soundId":	""
+					},
+					"splashOutSmallSound":	{
+						"soundId":	""
+					},
+					"splashOutLargeSound":	{
+						"soundId":	""
+					},
+					"jellyCollisionSound":	{
+						"soundId":	""
+					},
+					"modes":	[{
+							"name":	"",
+							"minContactCount":	6,
+							"maxContactCount":	100,
+							"minBodyContactCount":	1,
+							"maxBodyContactCount":	100,
+							"minVelocity":	0.300000011920929,
+							"maxVelocity":	1,
+							"minTime":	-1,
+							"maxTime":	1000000,
+							"minCount":	5,
+							"maxCount":	10,
+							"factorScale":	1,
+							"factorPower":	1,
+							"falloffDistance":	5,
+							"falloffPower":	1,
+							"falloffMinFactor":	0,
+							"relativeSpeed":	{
+								"x":	1,
+								"y":	2
+							},
+							"fadeInSpeed":	0.10000000149011612,
+							"fadeOutSpeed":	0.10000000149011612,
+							"destroy":	false,
+							"soundLoop":	{
+								"soundId":	"SOUND_GLOBAL_WATER_WATERLOOP_SMALL"
+							}
+						}]
+				},
+				"render":	{
+					"renderType":	0,
+					"startColor":	{
+						"color":	4279834905
+					},
+					"endColor":	{
+						"color":	4279834905
+					},
+					"gooSpawnProbability":	0,
+					"gooSpawnWetProbability":	0,
+					"colorVelocityFactor":	{
+						"x":	0,
+						"y":	4
+					},
+					"alpha":	1,
+					"overlay":	0,
+					"bloomFactor":	0,
+					"lightingFactor":	1,
+					"strength":	0.33000001311302185,
+					"dynamicLightingFactor":	0,
+					"particleFlags":	1208,
+					"groupFlags":	0,
+					"insideBlendingType":	2,
+					"detailSettings":	[{
+							"probablility":	0.05000000074505806,
+							"velocityRange":	{
+								"x":	0.649999976158142,
+								"y":	100
+							},
+							"velocityRandomScale":	0.10000000149011612,
+							"velocityRandom":	{
+								"x":	0.600000023841858,
+								"y":	0.800000011920929
+							},
+							"radiusRandom":	{
+								"x":	3.5999999046325684,
+								"y":	7.1999998092651367
+							},
+							"randomRadiusOffsetScale":	0.899999976158142,
+							"speedFactorScale":	0.5,
+							"scaleSpeed":	0.10000000149011612,
+							"gravityScale":	1,
+							"minContactCount":	1,
+							"maxContactCount":	1,
+							"surface":	false
+						}],
+					"insideSettings":	[{
+							"probablility":	0.0010000000474974513,
+							"velocityRange":	{
+								"x":	0.75,
+								"y":	100
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	5,
+							"maxContactCount":	100,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}, {
+							"probablility":	9.99999974737875e-05,
+							"velocityRange":	{
+								"x":	0,
+								"y":	0.10000000149011612
+							},
+							"timeRandom":	{
+								"x":	1,
+								"y":	2
+							},
+							"radiusRandom":	{
+								"x":	0.5,
+								"y":	1
+							},
+							"speedFactor":	0.00999999977648258,
+							"stretchFactor":	0.10000000149011612,
+							"rotateByVelocity":	true,
+							"minContactCount":	6,
+							"maxContactCount":	10,
+							"randomColorStart":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"randomColorEnd":	{
+								"x":	0.19599999487400055,
+								"y":	0.19599999487400055,
+								"z":	0.19599999487400055,
+								"w":	1
+							},
+							"image":	{
+								"imageId":	"IMAGE_FX_WHITE_CIRCLE"
+							},
+							"scaleWithBlend":	true,
+							"fadeTime":	0.25
+						}],
+					"canBurn":	true,
+					"destroyedByFire":	false,
+					"burn":	false,
+					"fireResistant":	false,
+					"extinguish":	false,
+					"jump":	false,
+					"stain":	true,
+					"minStainContactsCount":	0,
+					"discover":	false,
+					"affectsAutoBounds":	true,
+					"convertBurnToLiquidType":	0,
+					"convertBurnProbability":	1,
+					"waterPlaneColorBlend":	0.949999988079071,
+					"waterPlaneWaveFactorStart":	0.00999999977648258,
+					"waterPlaneWaveFactorEnd":	0.019999999552965164,
+					"waterPlaneWaveTimeSpeed":	0.10000000149011612,
+					"waterPlaneWaveCurveTimeScale":	0.20000000298023224,
+					"waterPlaneWaveCurveScale":	0.00999999977648258,
+					"waterPlaneWaveRippleScale":	0.00499999988824129,
+					"waterPlaneWaveRippleCosScale":	1,
+					"waterPlaneStartColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneEndColor":	{
+						"color":	4279834905
+					},
+					"waterPlaneBloomStartColor":	{
+						"color":	0
+					},
+					"waterPlaneBloomEndColor":	{
+						"color":	0
+					},
+					"waterPlaneWaves":	{
+						"imageId":	"IMAGE_GLOBAL_WATERWAVES"
+					},
+					"waterPlaneFoam":	{
+						"imageId":	""
+					},
+					"waterPlaneFoamColor":	{
+						"color":	4294967295
+					},
+					"waterPlaneFoamEndColor":	{
+						"color":	4294967295
+					},
+					"jellyImage":	{
+						"imageId":	"IMAGE_GLOBAL_JELLY"
+					},
+					"isJelly":	true,
+					"skins":	[{
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}, {
+							"enabled":	false,
+							"gooSpawnProbability":	0,
+							"gooSpawnWetProbability":	0,
+							"bloomFactor":	0,
+							"dynamicLightingFactor":	0,
+							"jellyOutlineColor":	{
+								"color":	4294967295
+							},
+							"jellyOutlineLimit":	1,
+							"jellySpecularColor":	{
+								"color":	4294967295
+							},
+							"jellySpecularLimit":	0.5,
+							"jellyShaderDefineIndex":	0,
+							"liquidColorStart":	{
+								"color":	4294967295
+							},
+							"liquidColorEnd":	{
+								"color":	4294967295
+							},
+							"liquidOutline":	{
+								"color":	4294967295
+							},
+							"liquidInsideStartColor":	{
+								"color":	4294967295
+							},
+							"liquidInsideEndColor":	{
+								"color":	4294967295
+							},
+							"liquidOutlineLimit":	-1,
+							"waterPlaneStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneEndColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomStartColor":	{
+								"color":	4294967295
+							},
+							"waterPlaneBloomEndColor":	{
+								"color":	4294967295
+							}
+						}],
+					"splashParticleEffect":	{
+						"uuid":	""
+					}
+				}
+			}]
+	},
+	"ballSounds":	{
+		"conduitSound":	{
+			"soundId":	"SOUND_GLOBAL_CONDUIT_ACTIVITY_LOOP"
+		},
+		"conduitSoundMinCount":	1,
+		"conduitSoundMaxCount":	20,
+		"conduitSoundSpeed":	0.10000000149011612,
+		"thrusterSound":	{
+			"soundId":	"SOUND_GLOBAL_THRUSTER_LOOP"
+		},
+		"thrusterSoundSpeed":	0.10000000149011612
+	},
+	"fireSounds":	{
+		"fireSound":	{
+			"soundId":	"SOUND_GLOBAL_LOOP_FIRE"
+		},
+		"fireSoundFalloffDistance":	5,
+		"fireSoundPower":	2,
+		"fireSoundMinCount":	1,
+		"fireSoundMaxCount":	60,
+		"fireSoundSpeed":	0.10000000149011612
+	},
+	"levelTexts":	{
+		"texts":	[{
+				"position":	{
+					"x":	0,
+					"y":	0
+				},
+				"rotation":	0,
+				"lines":	[{
+						"id":	"LEVEL_TEXT_I01_PART_1",
+						"debugText":	"Chapter 1",
+						"position":	{
+							"x":	-1.0670000314712524,
+							"y":	-0.50199997425079346
+						},
+						"rotation":	19.739999771118164,
+						"fontScale":	1.4099999666213989,
+						"maxLength":	360,
+						"color":	{
+							"color":	4283053639
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.0469999983906746,
+							"y":	-0.0869999974966049,
+							"z":	-0.029999999329447746,
+							"w":	-0.063000001013278961
+						},
+						"topVertical":	{
+							"x":	0.0649999976158142,
+							"y":	-0.028999999165534973,
+							"z":	0.097999997437000275,
+							"w":	0.37799999117851257
+						},
+						"bottomHorizontal":	{
+							"x":	-0.00899999961256981,
+							"y":	-0.090999998152256,
+							"z":	-0.2070000022649765,
+							"w":	-0.23299999535083771
+						},
+						"bottomVertical":	{
+							"x":	-0.13400000333786011,
+							"y":	-0.1809999942779541,
+							"z":	-0.17900000512599945,
+							"w":	0.083999998867511749
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I01_PART_2",
+						"debugText":	"The",
+						"position":	{
+							"x":	-0.572000026702881,
+							"y":	-1.406999945640564
+						},
+						"rotation":	23.719999313354492,
+						"fontScale":	1.2599999904632568,
+						"maxLength":	110,
+						"color":	{
+							"color":	4283053639
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.0430000014603138,
+							"y":	0.13099999725818634,
+							"z":	0.13199999928474426,
+							"w":	0.296999990940094
+						},
+						"topVertical":	{
+							"x":	0.097000002861022949,
+							"y":	0.048999998718500137,
+							"z":	0.0130000002682209,
+							"w":	0.0860000029206276
+						},
+						"bottomHorizontal":	{
+							"x":	0.12600000202655792,
+							"y":	0.14100000262260437,
+							"z":	0.10300000011920929,
+							"w":	0.11900000274181366
+						},
+						"bottomVertical":	{
+							"x":	-0.092000000178813934,
+							"y":	-0.034000001847743988,
+							"z":	-0.11900000274181366,
+							"w":	-0.017999999225139618
+						},
+						"topHorizontal2":	{
+							"x":	-0.221000000834465,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I01_PART_3",
+						"debugText":	"BIG FART",
+						"position":	{
+							"x":	1.2749999761581421,
+							"y":	-0.93900001049041748
+						},
+						"rotation":	-19.069999694824219,
+						"fontScale":	3.9300000667572021,
+						"maxLength":	1700,
+						"color":	{
+							"color":	4283053639
+						},
+						"largeCurve":	true,
+						"topHorizontal":	{
+							"x":	-0.11500000208616257,
+							"y":	-0.27399998903274536,
+							"z":	0.68300002813339233,
+							"w":	-0.95599997043609619
+						},
+						"topVertical":	{
+							"x":	0.12999999523162842,
+							"y":	-0.43700000643730164,
+							"z":	-1.0980000495910645,
+							"w":	0.34099999070167542
+						},
+						"bottomHorizontal":	{
+							"x":	0.30300000309944153,
+							"y":	0.21199999749660492,
+							"z":	-0.51499998569488525,
+							"w":	0.34900000691413879
+						},
+						"bottomVertical":	{
+							"x":	-0.13699999451637268,
+							"y":	-0.69599997997283936,
+							"z":	-0.29199999570846558,
+							"w":	-0.87400001287460327
+						},
+						"topHorizontal2":	{
+							"x":	0.010999999940395355,
+							"y":	-0.25600001215934753,
+							"z":	-0.65700000524520874,
+							"w":	-0.65499997138977051
+						},
+						"topVertical2":	{
+							"x":	-0.522000014781952,
+							"y":	1.2430000305175781,
+							"z":	0.26199999451637268,
+							"w":	-0.47499999403953552
+						},
+						"bottomHorizontal2":	{
+							"x":	-1.0399999618530273,
+							"y":	-1.0520000457763672,
+							"z":	0.615000009536743,
+							"w":	-0.1809999942779541
+						},
+						"bottomVertical2":	{
+							"x":	-0.73199999332427979,
+							"y":	1.73199999332428,
+							"z":	-0.20999999344348907,
+							"w":	-0.850000023841858
+						},
+						"modifiers":	[]
+					}]
+			}, {
+				"position":	{
+					"x":	0,
+					"y":	0
+				},
+				"rotation":	0,
+				"lines":	[{
+						"id":	"LEVEL_TEXT_I02_PART_1",
+						"debugText":	"Chapter 2",
+						"position":	{
+							"x":	0.46900001168251038,
+							"y":	1.2580000162124634
+						},
+						"rotation":	1.190000057220459,
+						"fontScale":	1.1299999952316284,
+						"maxLength":	305,
+						"color":	{
+							"color":	4278190080
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.20499999821186066,
+							"y":	-0.00800000037997961,
+							"z":	-0.0130000002682209,
+							"w":	0.16899999976158142
+						},
+						"topVertical":	{
+							"x":	0.093000002205371857,
+							"y":	-0.0689999982714653,
+							"z":	-0.15199999511241913,
+							"w":	0.059000000357627869
+						},
+						"bottomHorizontal":	{
+							"x":	0,
+							"y":	-0.061000000685453415,
+							"z":	-0.023000000044703484,
+							"w":	-0.0020000000949949026
+						},
+						"bottomVertical":	{
+							"x":	0.075999997556209564,
+							"y":	-0.17599999904632568,
+							"z":	-0.0560000017285347,
+							"w":	0.019999999552965164
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I02_PART_2",
+						"debugText":	"a Distant",
+						"position":	{
+							"x":	0.23000000417232513,
+							"y":	0.15299999713897705
+						},
+						"rotation":	-6.3000001907348633,
+						"fontScale":	3.309999942779541,
+						"maxLength":	830,
+						"color":	{
+							"color":	4278190080
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.12800000607967377,
+							"y":	-0.05299999937415123,
+							"z":	0.0649999976158142,
+							"w":	0.0130000002682209
+						},
+						"topVertical":	{
+							"x":	0.14000000059604645,
+							"y":	-0.045000001788139343,
+							"z":	-0.00999999977648258,
+							"w":	0.18500000238418579
+						},
+						"bottomHorizontal":	{
+							"x":	0.0780000016093254,
+							"y":	-0.0640000030398369,
+							"z":	0.0070000002160668373,
+							"w":	-0.15899999439716339
+						},
+						"bottomVertical":	{
+							"x":	0.041999999433755875,
+							"y":	-0.0989999994635582,
+							"z":	-0.13899999856948853,
+							"w":	0.0989999994635582
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I02_PART_3",
+						"debugText":	"Signal",
+						"position":	{
+							"x":	3.5039999485015869,
+							"y":	-2.4690001010894775
+						},
+						"rotation":	-7.96999979019165,
+						"fontScale":	3.7100000381469727,
+						"maxLength":	620,
+						"color":	{
+							"color":	4278190080
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.1379999965429306,
+							"y":	0.059000000357627869,
+							"z":	0.041000001132488251,
+							"w":	0.20999999344348907
+						},
+						"topVertical":	{
+							"x":	0.089000001549720764,
+							"y":	-0.00800000037997961,
+							"z":	-0.00800000037997961,
+							"w":	0.12300000339746475
+						},
+						"bottomHorizontal":	{
+							"x":	0.014000000432133675,
+							"y":	0.079999998211860657,
+							"z":	-0.070000000298023224,
+							"w":	0.00499999988824129
+						},
+						"bottomVertical":	{
+							"x":	0.043999999761581421,
+							"y":	0.0040000001899898052,
+							"z":	-0.093000002205371857,
+							"w":	0.10100000351667404
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}]
+			}, {
+				"position":	{
+					"x":	0,
+					"y":	0
+				},
+				"rotation":	8.2600002288818359,
+				"lines":	[{
+						"id":	"LEVEL_TEXT_I03_PART_1",
+						"debugText":	"Chapter 3",
+						"position":	{
+							"x":	-0.37200000882148743,
+							"y":	0.37299999594688416
+						},
+						"rotation":	-0.479999989271164,
+						"fontScale":	1.559999942779541,
+						"maxLength":	420,
+						"color":	{
+							"color":	4280951858
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.096000000834465027,
+							"y":	-0.18999999761581421,
+							"z":	-0.22699999809265137,
+							"w":	0
+						},
+						"topVertical":	{
+							"x":	0.079999998211860657,
+							"y":	0.041999999433755875,
+							"z":	-0.017000000923871994,
+							"w":	0.00899999961256981
+						},
+						"bottomHorizontal":	{
+							"x":	-0.0599999986588955,
+							"y":	-0.05000000074505806,
+							"z":	-0.31099998950958252,
+							"w":	0
+						},
+						"bottomVertical":	{
+							"x":	-0.00999999977648258,
+							"y":	-0.10000000149011612,
+							"z":	0.019999999552965164,
+							"w":	0.032000001519918442
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I03_PART_2",
+						"debugText":	"Atomic Express",
+						"position":	{
+							"x":	-2.8299999237060547,
+							"y":	-1.2000000476837158
+						},
+						"rotation":	0.56000000238418579,
+						"fontScale":	6.2300000190734863,
+						"maxLength":	2500,
+						"color":	{
+							"color":	4280951858
+						},
+						"largeCurve":	true,
+						"topHorizontal":	{
+							"x":	0.034000001847743988,
+							"y":	-0.14000000059604645,
+							"z":	-0.15700000524520874,
+							"w":	-0.268999993801117
+						},
+						"topVertical":	{
+							"x":	0.02199999988079071,
+							"y":	0,
+							"z":	-0.12300000339746475,
+							"w":	-0.0640000030398369
+						},
+						"bottomHorizontal":	{
+							"x":	0.00999999977648258,
+							"y":	-0.079999998211860657,
+							"z":	-0.4699999988079071,
+							"w":	0.17700000107288361
+						},
+						"bottomVertical":	{
+							"x":	0.048000000417232513,
+							"y":	-0.029999999329447746,
+							"z":	0.027000000700354576,
+							"w":	0.11699999868869781
+						},
+						"topHorizontal2":	{
+							"x":	-0.41299998760223389,
+							"y":	-0.21199999749660492,
+							"z":	-0.017999999225139618,
+							"w":	0.093000002205371857
+						},
+						"topVertical2":	{
+							"x":	-0.081000000238418579,
+							"y":	0.00899999961256981,
+							"z":	0.10700000077486038,
+							"w":	0.2669999897480011
+						},
+						"bottomHorizontal2":	{
+							"x":	-0.84899997711181641,
+							"y":	-0.034000001847743988,
+							"z":	-0.23000000417232513,
+							"w":	-0.0020000000949949026
+						},
+						"bottomVertical2":	{
+							"x":	-0.092000000178813934,
+							"y":	0.328000009059906,
+							"z":	0.16699999570846558,
+							"w":	0.35699999332427979
+						},
+						"modifiers":	[]
+					}]
+			}, {
+				"position":	{
+					"x":	0,
+					"y":	0
+				},
+				"rotation":	0,
+				"lines":	[{
+						"id":	"LEVEL_TEXT_I04_PART_1",
+						"debugText":	"Chapter 4",
+						"position":	{
+							"x":	0.019999999552965164,
+							"y":	-0.28999999165534973
+						},
+						"rotation":	18,
+						"fontScale":	0.43000000715255737,
+						"maxLength":	115,
+						"color":	{
+							"color":	4294964709
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	0.25099998712539673,
+							"y":	0.734000027179718,
+							"z":	0.915000021457672,
+							"w":	1.093999981880188
+						},
+						"topVertical":	{
+							"x":	-0.071999996900558472,
+							"y":	-0.063000001013278961,
+							"z":	0.059000000357627869,
+							"w":	0
+						},
+						"bottomHorizontal":	{
+							"x":	-0.656000018119812,
+							"y":	-0.05000000074505806,
+							"z":	0.239999994635582,
+							"w":	0.43999999761581421
+						},
+						"bottomVertical":	{
+							"x":	0.0769999995827675,
+							"y":	0.018999999389052391,
+							"z":	0.032000001519918442,
+							"w":	0.027000000700354576
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I04_PART_2",
+						"debugText":	"Ye Olde",
+						"position":	{
+							"x":	-0.14100000262260437,
+							"y":	-1.0039999485015869
+						},
+						"rotation":	17.25,
+						"fontScale":	1.2899999618530273,
+						"maxLength":	250,
+						"color":	{
+							"color":	4294964709
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	0.1379999965429306,
+							"y":	0.61599999666214,
+							"z":	0.899999976158142,
+							"w":	0.95099997520446777
+						},
+						"topVertical":	{
+							"x":	-0.11699999868869781,
+							"y":	-0.25999999046325684,
+							"z":	-0.17299999296665192,
+							"w":	-0.10199999809265137
+						},
+						"bottomHorizontal":	{
+							"x":	-0.49799999594688416,
+							"y":	-0.0390000008046627,
+							"z":	0.744000017642975,
+							"w":	0.759999990463257
+						},
+						"bottomVertical":	{
+							"x":	0.087999999523162842,
+							"y":	0.020999999716877937,
+							"z":	-0.16099999845027924,
+							"w":	0.02500000037252903
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[]
+					}, {
+						"id":	"LEVEL_TEXT_I04_PART_3",
+						"debugText":	"Reckonator",
+						"position":	{
+							"x":	-0.7070000171661377,
+							"y":	-2.1930000782012939
+						},
+						"rotation":	13.510000228881836,
+						"fontScale":	2.7899999618530273,
+						"maxLength":	1000,
+						"color":	{
+							"color":	4294964709
+						},
+						"largeCurve":	true,
+						"topHorizontal":	{
+							"x":	0.22699999809265137,
+							"y":	0.54400002956390381,
+							"z":	0.19799999892711639,
+							"w":	0.32600000500679016
+						},
+						"topVertical":	{
+							"x":	0.063000001013278961,
+							"y":	-0.20299999415874481,
+							"z":	-0.1080000028014183,
+							"w":	-0.546999990940094
+						},
+						"bottomHorizontal":	{
+							"x":	-0.3970000147819519,
+							"y":	-0.017999999225139618,
+							"z":	0.34999999403953552,
+							"w":	0.11699999868869781
+						},
+						"bottomVertical":	{
+							"x":	0.48399999737739563,
+							"y":	0.12800000607967377,
+							"z":	0.087999999523162842,
+							"w":	-0.25999999046325684
+						},
+						"topHorizontal2":	{
+							"x":	0.034000001847743988,
+							"y":	-0.44100001454353333,
+							"z":	-0.153999999165535,
+							"w":	-0.625
+						},
+						"topVertical2":	{
+							"x":	0.14200000464916229,
+							"y":	0.016000000759959221,
+							"z":	-0.057999998331069946,
+							"w":	0.54400002956390381
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	-0.068000003695487976,
+							"z":	-0.00499999988824129,
+							"w":	-0.21199999749660492
+						},
+						"bottomVertical2":	{
+							"x":	0.054000001400709152,
+							"y":	0.17700000107288361,
+							"z":	0.22200000286102295,
+							"w":	0.74099999666214
+						},
+						"modifiers":	[]
+					}]
+			}, {
+				"position":	{
+					"x":	0,
+					"y":	0
+				},
+				"rotation":	30.649999618530273,
+				"lines":	[{
+						"id":	"LEVEL_TEXT_I05_PART_1",
+						"debugText":	"CHAPTER 5",
+						"position":	{
+							"x":	-0.0260000005364418,
+							"y":	0
+						},
+						"rotation":	0.9100000262260437,
+						"fontScale":	1.4099999666213989,
+						"maxLength":	440,
+						"color":	{
+							"color":	4278190080
+						},
+						"largeCurve":	false,
+						"topHorizontal":	{
+							"x":	-0.19499999284744263,
+							"y":	-0.34099999070167542,
+							"z":	-0.356000006198883,
+							"w":	-0.472000002861023
+						},
+						"topVertical":	{
+							"x":	0.20800000429153442,
+							"y":	-0.492000013589859,
+							"z":	-0.0020000000949949026,
+							"w":	0.21600000560283661
+						},
+						"bottomHorizontal":	{
+							"x":	-0.270000010728836,
+							"y":	-0.26800000667572021,
+							"z":	-0.43399998545646667,
+							"w":	-0.509999990463257
+						},
+						"bottomVertical":	{
+							"x":	-0.068000003695487976,
+							"y":	-0.24699999392032623,
+							"z":	-0.27900001406669617,
+							"w":	-0.061999998986721039
+						},
+						"topHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"topVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"bottomVertical2":	{
+							"x":	0,
+							"y":	0,
+							"z":	0,
+							"w":	0
+						},
+						"modifiers":	[{
+								"languageCodes":	"pl",
+								"index":	-1,
+								"position":	{
+									"x":	0,
+									"y":	-150
+								},
+								"rotation":	0,
+								"scale":	1
+							}]
+					}, {
+						"id":	"LEVEL_TEXT_I05_PART_2",
+						"debugText":	"a new",
+						"position":	{
+							"x":	0.20100000500679016,
+							"y":	-0.768999993801117
+						},
+						"rotation":	-4.5100002288818359,
+						"fontScale":	3.3199999332427979,
+						"maxLength":	550,
+						"color":	{
+							"color":	4278190080
+						},
+						"largeCurve":	true,
+						"topHorizontal":	{
+							"x":	-0.164000004529953,
+							"y":	-0.027000000700354576,
+							"z":	-0.39100000262260437,
+							"w":	-0.1120000034570694
+						},
+						"topVertical":	{
+							"x":	0.29499998688697815,
+							"y":	0.33799999952316284,
+							"z":	-0.11599999666213989,
+							"w":	-0.02199999988079071
+						},
+						"bottomHorizontal":	{
+							"x":	-0.11400000005960464,
+							"y":	0.090999998152256,
+							"z":	-0.55699998140335083,
+							"w":	0.045000001788139343
+						},
+						"bottomVertical":	{
+							"x":	0.048999998718500137,
+							"y":	-0.12200000137090683,
+							"z":	0.29399999976158142,
+							"w":	-0.0820000022649765
+						},
+						"topHorizontal2":	{
+							"x":	-0.054999999701976776,
+							"y":	0.221000000834465,
+							"z":	0.37099999189376831,
+							"w":	0.449999988079071
+						},
+						"topVertical2":	{
+							"x":	-0.12700000405311584,
+							"y":	0.068000003695487976,
+							"z":	-0.125,
+							"w":	0.12200000137090683
+						},
+						"bottomHorizontal2":	{
+							"x":	-0.061000000685453415,
+							"y":	0.0780000016093254,
+							"z":	0.356000006198883,
+							"w":	0.37299999594688416
+						},
+						"bottomVertical2":	{
+							"x":	0.02199999988079071,
+							"y":	-0.092000000178813934,
+							"z":	-0.034000001847743988,
+							"w":	0.13899999856948853
+						},
+						"modifiers":	[{
+								"languageCodes":	"en",
+								"index":	0,
+								"position":	{
+									"x":	0,
+									"y":	-20
+								},
+								"rotation":	4.3499999046325684,
+								"scale":	0.86000001430511475
+							}, {
+								"languageCodes":	"pl",
+								"index":	-1,
+								"position":	{
+									"x":	0,
+									"y":	-30
+								},
+								"rotation":	0,
+								"scale":	1
+							}]
+					}, {
+						"id":	"LEVEL_TEXT_I05_PART_3",
+						"debugText":	"World",
+						"position":	{
+							"x":	1.0900000333786011,
+							"y":	-3.1809999942779541
+						},
+						"rotation":	-5.3899998664855957,
+						"fontScale":	4.630000114440918,
+						"maxLength":	780,
+						"color":	{
+							"color":	4278190080
+						},
+						"largeCurve":	true,
+						"topHorizontal":	{
+							"x":	-0.097999997437000275,
+							"y":	-0.12099999934434891,
+							"z":	0.12300000339746475,
+							"w":	-0.027000000700354576
+						},
+						"topVertical":	{
+							"x":	0.089000001549720764,
+							"y":	-0.0060000000521540642,
+							"z":	-0.054999999701976776,
+							"w":	-0.0520000010728836
+						},
+						"bottomHorizontal":	{
+							"x":	-0.15099999308586121,
+							"y":	-0.16099999845027924,
+							"z":	0.028999999165534973,
+							"w":	0.023000000044703484
+						},
+						"bottomVertical":	{
+							"x":	-0.018999999389052391,
+							"y":	-0.028000000864267349,
+							"z":	-0.35100001096725464,
+							"w":	0.087999999523162842
+						},
+						"topHorizontal2":	{
+							"x":	0.14100000262260437,
+							"y":	0.037000000476837158,
+							"z":	0.048999998718500137,
+							"w":	0.16899999976158142
+						},
+						"topVertical2":	{
+							"x":	0.20299999415874481,
+							"y":	-0.10000000149011612,
+							"z":	0.0260000005364418,
+							"w":	0.119999997317791
+						},
+						"bottomHorizontal2":	{
+							"x":	0,
+							"y":	-0.0260000005364418,
+							"z":	0.0520000010728836,
+							"w":	0.12399999797344208
+						},
+						"bottomVertical2":	{
+							"x":	-0.23600000143051147,
+							"y":	-0.12099999934434891,
+							"z":	-0.057000000029802322,
+							"w":	0.010999999940395355
+						},
+						"modifiers":	[{
+								"languageCodes":	"pl",
+								"index":	-1,
+								"position":	{
+									"x":	0,
+									"y":	40
+								},
+								"rotation":	0,
+								"scale":	1
+							}]
+					}]
+			}]
+	}
+}
