@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_LauncherL2B">
+       <SetDefaults path="./" idprefix="ANIM_LAUNCHERL2B_" />
+       <FlashAnim id="BALLLAUNCHER" path="res/anim/Launchers/BallLauncher/BallLauncher"/>
+       <FlashAnim id="BALLLAUNCHER_NEON" path="res/anim/Launchers/BallLauncher_Neon/BallLauncher_Neon"/>
+
+      <SetDefaults path="res/balls/LauncherL2B/" idprefix="SOUND_BALL_LAUNCHERL2B_" />
+
+      <Sound id="GRAB01" path="grab.01"/>
+      <Sound id="GRAB02" path="grab.02"/>
+      <Sound id="GRAB03" path="grab.03"/>
+      <Sound id="GRAB04" path="grab.04"/>
+      <Sound id="GRAB05" path="grab.05"/>
+      
+      <Sound id="HOVER01" path="hover.01"/>
+      <Sound id="HOVER02" path="hover.02"/>
+      <Sound id="HOVER03" path="hover.03"/>
+      <Sound id="HOVER04" path="hover.04"/>
+      <Sound id="HOVER05" path="hover.05"/>
+      <Sound id="HOVER06" path="hover.06"/>
+      <Sound id="HOVER07" path="hover.07"/>
+      <Sound id="HOVER08" path="hover.08"/>
+      <Sound id="HOVER09" path="hover.09"/>
+
+      <Sound id="LAUNCH01" path="launch.01"/>
+      <Sound id="LAUNCH02" path="launch.02"/>
+      <Sound id="LAUNCH03" path="launch.03"/>
+      <Sound id="LAUNCH04" path="launch.04"/>
+      <Sound id="LAUNCH05" path="launch.05"/>
+      <Sound id="LAUNCH06" path="launch.06"/>
+      <Sound id="LAUNCH07" path="launch.07"/>
+      <Sound id="LAUNCH08" path="launch.08"/>
+      <Sound id="LAUNCH09" path="launch.09"/>
+      <Sound id="LAUNCH10" path="launch.10"/>
+      <Sound id="LAUNCH11" path="launch.11"/>
+      <Sound id="LAUNCH12" path="launch.12"/>
+       
+  </Resources>
+
+</ResourceManifest>
